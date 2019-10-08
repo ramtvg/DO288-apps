@@ -1,13 +1,11 @@
 
 
-
-
-
-
 spec:
   template:
     spec:
       containers:
-        -envFrom:
-          -configMapRef:
-            -name: env-config 
+        - envFrom:
+            - configMapRef:
+                name: env-config
+
+
